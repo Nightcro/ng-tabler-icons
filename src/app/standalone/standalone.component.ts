@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
-import { TablerIconComponent, provideTablerIcons } from 'angular-tabler-icons';
+import { TablerIconComponent, provideTablerIcons } from 'ng-tabler-icons';
 import {
   IconNumber123,
   IconAdOff,
   IconHeartFilled,
   IconGolfFilled,
-} from 'angular-tabler-icons/icons';
+} from 'ng-tabler-icons/icons';
 
 @Component({
     selector: 'app-standalone',

@@ -1,5 +1,5 @@
 /*
- * Public API Surface of angular-tabler-icons
+ * Public API Surface of ng-tabler-icons
  */
 
 export { TablerIconComponent } from './lib/tabler-icon.component';

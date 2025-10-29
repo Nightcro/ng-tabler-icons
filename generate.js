@@ -2,7 +2,7 @@ import { deleteAsync } from "del";
 import { mkdir, readdir, readFile, writeFile, appendFile } from "fs/promises";
 import uppercamelcase from "uppercamelcase";
 
-const NG_PROJECT = 'projects/angular-tabler-icons';
+const NG_PROJECT = 'projects/ng-tabler-icons';
 const PATHS = {
 
   // Path to Tabler SVG icons

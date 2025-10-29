@@ -17,7 +17,7 @@ jobs:
           node-version: '22.x'
           registry-url: 'https://registry.npmjs.org'
       - name: Set Angular library version
-        working-directory: ./projects/angular-tabler-icons
+        working-directory: ./projects/ng-tabler-icons
         run: npm version ${{ github.event.inputs.tabler_version }} --git-tag-version=false
       - name: Install dependencies
         run: yarn

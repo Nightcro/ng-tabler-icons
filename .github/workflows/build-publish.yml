@@ -20,7 +20,7 @@ jobs:
       - name: Build Angular library
         run: yarn lib:build
       - name: Publish package to NPM
-        working-directory: ./dist/angular-tabler-icons
+        working-directory: ./dist/ng-tabler-icons
         run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}

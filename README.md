@@ -1,8 +1,8 @@
-# angular-tabler-icons
+# ng-tabler-icons
 
 [![tabler-icons-version](https://img.shields.io/badge/Tabler%20Icons-v3.26.0-%23206bc4?style=flat-square)](https://tabler.io/icons)
-[![license](https://img.shields.io/npm/l/angular-tabler-icons.svg?style=flat-square)]()
-[![downloads](https://img.shields.io/npm/dm/angular-tabler-icons?style=flat-square)]()
+[![license](https://img.shields.io/npm/l/ng-tabler-icons.svg?style=flat-square)]()
+[![downloads](https://img.shields.io/npm/dm/ng-tabler-icons?style=flat-square)]()
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors-)
@@ -17,9 +17,9 @@ This package allows you to use the [Tabler Icons](https://tabler.io/icons) in yo
 _1. Install the package_
 
 ```sh
-npm install angular-tabler-icons
+npm install ng-tabler-icons
 # or
-yarn add angular-tabler-icons
+yarn add ng-tabler-icons
 ```
 
 ## Usage
@@ -32,12 +32,12 @@ If you are using Standalone Components, use the `provideTablerIcons()`
 
 ```ts
 import { Component } from '@angular/core';
-import { TablerIconComponent, provideTablerIcons } from 'angular-tabler-icons';
+import { TablerIconComponent, provideTablerIcons } from 'ng-tabler-icons';
 import {
   IconNumber123,
   IconAdOff,
   IconHeartFilled,
-} from 'angular-tabler-icons/icons';
+} from 'ng-tabler-icons/icons';
 
 @Component({
   selector: 'app-standalone',
@@ -121,8 +121,8 @@ Some options are available to configure the module:
 
 ```ts
 import { environment } from "../environments/environment";
-import { TablerIconsModule } from "angular-tabler-icons";
-import * as TablerIcons from "angular-tabler-icons/icons";
+import { TablerIconsModule } from "ng-tabler-icons";
+import * as TablerIcons from "ng-tabler-icons/icons";
 
 @NgModule({
   imports: [
@@ -142,8 +142,8 @@ export class IconsModule {}
 You can import all icons at once by doing the following. However, keep in mind that by doing this, all icons will end up in your application bundle. While this may not be much of an issue for prototyping, **it is not recommended for any application that you plan to release**.
 
 ```ts
-import { TablerIconsModule } from "angular-tabler-icons";
-import * as TablerIcons from "angular-tabler-icons/icons";
+import { TablerIconsModule } from "ng-tabler-icons";
+import * as TablerIcons from "ng-tabler-icons/icons";
 
 @NgModule({
   imports: [TablerIconsModule.pick(TablerIcons)],
@@ -174,8 +174,8 @@ _file: icon.module.ts_
 ```ts
 import { NgModule } from "@angular/core";
 
-import { TablerIconsModule } from "angular-tabler-icons";
-import { IconCamera, IconHeart, IconBrandGithub } from "angular-tabler-icons/icons";
+import { TablerIconsModule } from "ng-tabler-icons";
+import { IconCamera, IconHeart, IconBrandGithub } from "ng-tabler-icons/icons";
 
 // Select some icons (use an object, not an array)
 const icons = {
@@ -226,7 +226,7 @@ After importing the _IconsModule_ in your feature or shared module, use the icon
 
 ## Angular version compatibility
 
-| Angular | angular-tabler-icons |
+| Angular | ng-tabler-icons |
 | ------- | -------------------- |
 | 18 & 19 | 3.22.0+              |
 | 17      | 2.40.1+              |
@@ -265,10 +265,10 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tbody>
     <tr>
-      <td align="center" valign="top" width="14.28%"><a href="https://github.com/pierreavn"><img src="https://avatars.githubusercontent.com/u/8176955?v=4?s=100" width="100px;" alt="Pierre"/><br /><sub><b>Pierre</b></sub></a><br /><a href="https://github.com/pierreavn/angular-tabler-icons/commits?author=pierreavn" title="Code">💻</a> <a href="https://github.com/pierreavn/angular-tabler-icons/commits?author=pierreavn" title="Documentation">📖</a> <a href="#maintenance-pierreavn" title="Maintenance">🚧</a></td>
-      <td align="center" valign="top" width="14.28%"><a href="https://github.com/the-ult"><img src="https://avatars.githubusercontent.com/u/4863062?v=4?s=100" width="100px;" alt="Arjen Althoff"/><br /><sub><b>Arjen Althoff</b></sub></a><br /><a href="https://github.com/pierreavn/angular-tabler-icons/commits?author=the-ult" title="Code">💻</a> <a href="https://github.com/pierreavn/angular-tabler-icons/commits?author=the-ult" title="Documentation">📖</a> <a href="#maintenance-the-ult" title="Maintenance">🚧</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/pierreavn"><img src="https://avatars.githubusercontent.com/u/8176955?v=4?s=100" width="100px;" alt="Pierre"/><br /><sub><b>Pierre</b></sub></a><br /><a href="https://github.com/pierreavn/angular-tabler-icons/commits?author=pierreavn" title="Code">💻</a> <a href="https://github.com/pierreavn/ng-tabler-icons/commits?author=pierreavn" title="Documentation">📖</a> <a href="#maintenance-pierreavn" title="Maintenance">🚧</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/the-ult"><img src="https://avatars.githubusercontent.com/u/4863062?v=4?s=100" width="100px;" alt="Arjen Althoff"/><br /><sub><b>Arjen Althoff</b></sub></a><br /><a href="https://github.com/pierreavn/angular-tabler-icons/commits?author=the-ult" title="Code">💻</a> <a href="https://github.com/pierreavn/ng-tabler-icons/commits?author=the-ult" title="Documentation">📖</a> <a href="#maintenance-the-ult" title="Maintenance">🚧</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/janschab"><img src="https://avatars.githubusercontent.com/u/56731968?v=4?s=100" width="100px;" alt="Jan Schab"/><br /><sub><b>Jan Schab</b></sub></a><br /><a href="https://github.com/pierreavn/angular-tabler-icons/commits?author=janschab" title="Code">💻</a></td>
-      <td align="center" valign="top" width="14.28%"><a href="https://github.com/nightcro"><img src="https://avatars.githubusercontent.com/u/24304655?v=4?s=100" width="100px;" alt="Alexandru Mindru"/><br /><sub><b>Alexandru Mindru</b></sub></a><br /><a href="https://github.com/pierreavn/angular-tabler-icons/commits?author=nightcro" title="Code">💻</a> <a href="#maintenance-nightcro" title="Maintenance">🚧</a> <a href="https://github.com/pierreavn/angular-tabler-icons/commits?author=nightcro" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/nightcro"><img src="https://avatars.githubusercontent.com/u/24304655?v=4?s=100" width="100px;" alt="Alexandru Mindru"/><br /><sub><b>Alexandru Mindru</b></sub></a><br /><a href="https://github.com/nightcro/angular-tabler-icons/commits?author=nightcro" title="Code">💻</a> <a href="#maintenance-nightcro" title="Maintenance">🚧</a> <a href="https://github.com/angular/ng-tabler-icons/commits?author=nightcro" title="Documentation">📖</a></td>
     </tr>
   </tbody>
 </table>

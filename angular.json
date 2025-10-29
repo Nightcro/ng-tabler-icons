@@ -3,23 +3,23 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "angular-tabler-icons": {
+    "ng-tabler-icons": {
       "projectType": "library",
-      "root": "projects/angular-tabler-icons",
-      "sourceRoot": "projects/angular-tabler-icons/src",
+      "root": "projects/ng-tabler-icons",
+      "sourceRoot": "projects/ng-tabler-icons/src",
       "prefix": "tabler-icons",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:ng-packagr",
           "options": {
-            "project": "projects/angular-tabler-icons/ng-package.json"
+            "project": "projects/ng-tabler-icons/ng-package.json"
           },
           "configurations": {
             "production": {
-              "tsConfig": "projects/angular-tabler-icons/tsconfig.lib.prod.json"
+              "tsConfig": "projects/ng-tabler-icons/tsconfig.lib.prod.json"
             },
             "development": {
-              "tsConfig": "projects/angular-tabler-icons/tsconfig.lib.json"
+              "tsConfig": "projects/ng-tabler-icons/tsconfig.lib.json"
             }
           },
           "defaultConfiguration": "production"
@@ -27,9 +27,9 @@
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "main": "projects/angular-tabler-icons/src/test.ts",
-            "tsConfig": "projects/angular-tabler-icons/tsconfig.spec.json",
-            "karmaConfig": "projects/angular-tabler-icons/karma.conf.js",
+            "main": "projects/ng-tabler-icons/src/test.ts",
+            "tsConfig": "projects/ng-tabler-icons/tsconfig.spec.json",
+            "karmaConfig": "projects/ng-tabler-icons/karma.conf.js",
             "polyfills": [
               "zone.js",
               "zone.js/testing"
@@ -40,10 +40,10 @@
           "builder": "@angular-eslint/builder:lint",
           "options": {
             "lintFilePatterns": [
-              "projects/angular-tabler-icons/**/*.ts",
-              "projects/angular-tabler-icons/**/*.html"
+              "projects/ng-tabler-icons/**/*.ts",
+              "projects/ng-tabler-icons/**/*.html"
             ],
-            "eslintConfig": "projects/angular-tabler-icons/eslint.config.js"
+            "eslintConfig": "projects/ng-tabler-icons/eslint.config.js"
           }
         }
       }

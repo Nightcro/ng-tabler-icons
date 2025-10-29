@@ -17,13 +17,13 @@
     "module": "es2022",
     "lib": ["es2022", "dom"],
     "paths": {
-      "angular-tabler-icons": [
-        "dist/angular-tabler-icons/angular-tabler-icons",
-        "dist/angular-tabler-icons"
+      "ng-tabler-icons": [
+        "dist/ng-tabler-icons/ng-tabler-icons",
+        "dist/ng-tabler-icons"
       ],
-      "angular-tabler-icons/*": [
-        "dist/angular-tabler-icons/angular-tabler-icons/*",
-        "dist/angular-tabler-icons/*"
+      "ng-tabler-icons/*": [
+        "dist/ng-tabler-icons/ng-tabler-icons/*",
+        "dist/ng-tabler-icons/*"
       ]
     },
     "useDefineForClassFields": false
