@@ -4,7 +4,7 @@
   "description": "Tabler Icons components library for your Angular applications",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pierreavn/ng-tabler-icons.git"
+    "url": "git+https://github.com/nightcro/ng-tabler-icons.git"
   },
   "keywords": [
     "angular",
