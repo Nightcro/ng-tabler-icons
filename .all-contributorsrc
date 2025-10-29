@@ -42,13 +42,14 @@
       ]
     },
     {
-     "login": "nightcro",
-     "name": "Alexandru Mindru",
-     "avatar_url": "https://avatars.githubusercontent.com/u/24304655?v=4",
-     "profile": "https://github.com/nightcro",
-     "contributions": [
-       "code"
-     ]
+      "login": "nightcro",
+      "name": "Alexandru Mindru",
+      "avatar_url": "https://avatars.githubusercontent.com/u/24304655?v=4",
+      "profile": "https://github.com/nightcro",
+      "contributions": [
+        "code",
+        "maintenance"
+      ]
     }
   ],
   "contributorsPerLine": 7,
