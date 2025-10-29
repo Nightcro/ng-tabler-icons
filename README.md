@@ -228,15 +228,7 @@ After importing the _IconsModule_ in your feature or shared module, use the icon
 
 | Angular | ng-tabler-icons |
 |---------|-----------------|
-| 20      | 3.35.0+          |
-| 18 & 19 | 3.22.0+         |
-| 17      | 2.40.1+         |
-| 16      | 2.21.1+         |
-| 15      | 1.117.1+        |
-| 14      | 1.72.1+         |
-| 13      | 1.53.1+         |
-| 12      | 1.41.3+         |
-| 11      | 1.41.0+         |
+| 20      | 3.35.0+         |
 
 ## Contributing
 
