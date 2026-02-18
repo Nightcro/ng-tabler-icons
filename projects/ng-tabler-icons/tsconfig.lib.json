@@ -2,6 +2,7 @@
 {
   "extends": "../../tsconfig.json",
   "compilerOptions": {
+    "moduleResolution": "bundler",
     "outDir": "../../out-tsc/lib",
     "declaration": true,
     "declarationMap": true,
@@ -9,7 +10,7 @@
     "types": [],
     "lib": [
       "dom",
-      "es2018"
+      "es2022"
     ]
   },
   "angularCompilerOptions": {
