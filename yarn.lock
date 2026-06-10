@@ -3443,10 +3443,10 @@
   resolved "https://registry.yarnpkg.com/@standard-schema/spec/-/spec-1.1.0.tgz#a79b55dbaf8604812f52d140b2c9ab41bc150bb8"
   integrity sha512-l2aFy5jALhniG5HgqrD6jXLi/rUWrKvqN/qJx6yoJsgKhblVd+iqqU4RCXavm/jPityDo5TCvKMnpjKnOriy0w==
 
-"@tabler/icons@3.39.0":
-  version "3.39.0"
-  resolved "https://registry.yarnpkg.com/@tabler/icons/-/icons-3.39.0.tgz#915fa19485327fec822775c7dbfec11c3a9c471c"
-  integrity sha512-nd9f5+OVJNDR13v6rqPdmALkVhDknDuGMLuj16sK9UaRkOTQWwQM+EWG2fMYBNSH8ISsHiXfryNGQogIpsar4g==
+"@tabler/icons@3.44.0":
+  version "3.44.0"
+  resolved "https://registry.yarnpkg.com/@tabler/icons/-/icons-3.44.0.tgz#286b203aac98591e27360de03974762568bbb272"
+  integrity sha512-Wn0AOZG9sg0L+bjfMqq4eNhC6pQjIrk94LvvWYNYkY8KH8wC3YILRzQlrnVJc4FUeMxH/AK97QsYCX35H3LndA==
 
 "@tsconfig/node10@^1.0.7":
   version "1.0.11"
